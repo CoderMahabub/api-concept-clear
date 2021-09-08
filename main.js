@@ -12,7 +12,7 @@ searchBtn.addEventListener("click", function () {
     errorDiv.innerText = "Search field cannot be empty.";
     return;
   }
-  //   Clear
+  //   Clear Container
   countryContainer.innerHTML = "";
   countryDetails.innerHTML = "";
   const url = `https://restcountries.eu/rest/v2/name/${search}`;
